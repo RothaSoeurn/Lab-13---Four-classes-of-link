@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lap 13</title>
+    <style>
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+     
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #333;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+        }
+
+   
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+      
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+            border-radius: 5px;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="https://rupp.edu.kh/">Home</a>
+        <a href="https://rupp.edu.kh/content.php?page=about_rupp">About</a>
+
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+            <a href="">Department</a>
+            <div class="dropdown-content">
+                <a href="https://rupp.edu.kh/fs">Faculty of science</a>
+                <a href="https://rupp.edu.kh/fssh">Faculty of Social Sciences and Humanities
+                </a>
+                <a href="https://rupp.edu.kh/fe">Faculty of Engineering
+                </a>
+                <a href="https://rupp.edu.kh/fds">Faculty of Development Studies
+                </a>
+                <a href="https://rupp.edu.kh/fed">Faculty of Education
+                </a>
+
+                <a href="https://rupp.edu.kh/ifl">Institute of Foreign Languages
+
+                </a>
+
+                <a href="https://rupp.edu.kh/iispp">Institute of Foreign Languages
+
+                </a>
+
+                <a href="https://rupp.edu.kh/center">Center
+
+                </a>
+
+                <a href="https://rupp.edu.kh/offices">ALL OFFICES
+
+
+                </a>
+
+
+                <a href="https://rupp.edu.kh/ICN-2DMP-QGC">Conferences
+
+
+                </a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="">RUPP</a>
+            <div class="dropdown-content">
+                <a href="https://rupp.edu.kh/content.php?page=about_rupp#intro">Introduction</a>
+                <a href="https://rupp.edu.kh/content.php?page=about_rupp#visoin">Vision
+                </a>
+                <a href="https://rupp.edu.kh/content.php?page=about_rupp#mission">Mission Statement
+                </a>
+                <a href="https://rupp.edu.kh/content.php?page=about_rupp#obj">Goals
+                </a>
+                <a href="https://rupp.edu.kh/content.php?page=about_rupp#enabling">Enabling Strategies
+                </a>
+
+                <a href="https://rupp.edu.kh/content.php?page=about_rupp#hist">History
+
+                </a>
+
+                <a href="https://rupp.edu.kh/content.php?page=management">MANAGEMENT
+
+                </a>
+
+            </div>
+        </div>
+
+        <a href="https://rupp.edu.kh/content.php?page=contact">Contact</a>
+    </nav>
+</body>
+</html>
